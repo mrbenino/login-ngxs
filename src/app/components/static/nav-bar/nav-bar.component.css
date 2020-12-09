@@ -1,0 +1,12 @@
+nav {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: navy;
+  color: white;
+  margin-bottom: 20px;
+}
+
+nav > button:not(:last-child) {
+  margin-right: 10px;
+}
